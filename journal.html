@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Kindred</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <html lang="en-US">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+
+  <body>
+    <nav>
+        <ul>
+          <li class="flex1"><img class="logo" src="images/kindredlogo.PNG"></li>
+          <li class="flex2"><a href="home.html">home</a></li>
+          <li class="flex2"><a href="prompts.html">prompts</a></li>
+          <li class="flex2"><a href="profile.html">profile</a></li>
+        </nav>
+
+    <label for="Title">Title:</label>
+
+<div id="journal-container">
+
+<div id="journal-child">
+<input type="text" id="name" name="name" required
+       minlength="2" maxlength="70" size="60">
+    </div>
+    <div id="journal-child">
+        <div class="journal-form">
+            <form action = "/cgi-bin/hello_get.cgi" method = "get">
+                <br>
+                <textarea rows = "30" cols = "130" name = "description">Once upon a time...
+                </textarea><br>
+            </div>
+                <a href="success.html">
+                    <button type="button" class="edit_button">Submit</button>
+                </a>
+            </form>
+        </div>
+</div>
+</body>
+</html>
